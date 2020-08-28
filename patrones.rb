@@ -1,14 +1,7 @@
-# a. Método letra_o(n)
-# n = 5
-# *****
-# *   *
-# *   *
-# *   *
-# *****
+
 print "\nfirst exercise \n\n"
-
-
 n = ARGV[0].to_i
+
 
 n.times do |i|
     (i - 3).times do |j|
@@ -31,16 +24,7 @@ end
 print "\n"
 
 
-
 print "\nsecond exercise: \n\n"
-# b. Método letra_i(n)
-# n = 5
-# *****
-#   *
-#   *
-#   *
-# *****
-
 n = ARGV[0].to_i
 
 n.times do |i|
@@ -67,15 +51,6 @@ print "\n"
 
 
 print "\nthird exercise: \n\n"
-
-# c. Método letra_z(n)
-# n = 5
-# *****
-#    *
-#   *
-#  *
-# *****
-
 n = ARGV[0].to_i
 
 n.times do |i|
@@ -102,15 +77,6 @@ print "\n"
 
 
 print "\nfourth exercise: \n\n"
-
-# d. Método letra_x(n)
-# n = 5
-# *   *
-#  * *
-#   *
-#  * *
-# *   *
-
 n = ARGV[0].to_i
 
 n.times do |i|
@@ -143,16 +109,6 @@ print "\n"
 
 
 print "\nfifth exercise: \n\n"
-
-
-# e. Método numero_cero(n)
-# n = 5
-# *****
-# **  *
-# * * *
-# *  **
-# *****
-
 n = ARGV[0].to_i
 
 n.times do |i|
@@ -187,19 +143,7 @@ n.times do |i|
 end
 print "\n"
 
-print "\nsixth exercise: \n\n"
-
-
-# f. Método navidad(n)
-# n = 5
-#    *
-#   * *
-#  * * *
-# * * * *
-#    *
-#    *
-#  * * *
-
+print "\nsixth exercise: \n"
 (n / 5).times do |i|
     (n / 5).times do |j|
         print "
